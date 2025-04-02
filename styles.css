@@ -43,21 +43,21 @@ body {
 }
 
 button {
-  background-color: #fff; /* White background */
-  color: #113744; /* Text color matching the theme */
-  font-family: Montserrat, sans-serif; /* Font family */
-  font-size: 30px; /* Font size */
-  font-weight: 700; /* Bold text */
-  padding: 10px 20px; /* Padding for size */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  background-color: #fff;
+  color: #113744;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #f47457;
-  color: #fff; /* White text on hover */
+  color: #fff;
 }
 
 .credits {
@@ -85,44 +85,43 @@ button:hover {
 }
 
 #saveBtn {
-  background-color: #f47457; /* Red background */
-  color: #fff; /* White text */
-  font-family: Montserrat, sans-serif; /* Font family */
-  font-size: 20px; /* Font size */
-  font-weight: 700; /* Bold text */
-  padding: 10px 20px; /* Padding for size */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  background-color: #f47457;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   transition: background-color 0.3s ease;
-  /* Match the width of the counter container including all buttons and gaps */
+  transition: background-color 0.3s ease;
   width: 100%;
 }
 
 #resetBtn {
-  background-color: #f47457; /* Red background */
-  color: #fff; /* White text */
-  font-family: Montserrat, sans-serif; /* Font family */
-  font-size: 20px; /* Font size */
-  font-weight: 700; /* Bold text */
-  padding: 10px 20px; /* Padding for size */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  background-color: #f47457;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #save-el {
-  background-color: #b75741; /* Red background */
-  color: #fff; /* White text */
-  font-family: Montserrat, sans-serif; /* Font family */
-  font-size: 20px; /* Font size */
-  font-weight: 700; /* Bold text */
-  padding: 10px 20px; /* Padding for size */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  background-color: #b75741;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   text-align: center;
 }

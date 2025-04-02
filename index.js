@@ -36,6 +36,8 @@ function saveFunc(){
     console.log(counter);
 }
 
+// Purpose: This function resets the counter to 0 and updates the HTML element with the new value.
+// It also clears the previous entries displayed in the saveEl element.
 function resetFunc() {
     counter = 0;
     document.getElementById("counter").innerHTML = counter;
