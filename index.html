@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="header">Passenger Counter</h1>
+    <div class="container">
+      <div class="counter-container">
+        <button id="decrement" onClick="decrementFunc()">-</button> 
+        <div id="counter">0</div>
+        <button id="increment" onClick="incrementFunc()">+</button>
+      </div>
+        <div class="saveBtn-container">
+            <button id="saveBtn" onClick="saveFunc()">Save</button>
+            <button id="resetBtn" onClick="resetFunc()">Reset</button>
+    </div>
+    <p id="save-el">Previous entries: </p>
+    <img class="subwayImg" src="/subway illustration.jpg" />
+    <p class="credits">Designed and Developed by Sandy Lumacad</p>
+    <script src="index.js"></script>
+  </body>
+</html>

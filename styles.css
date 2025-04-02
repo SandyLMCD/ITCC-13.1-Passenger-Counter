@@ -1,0 +1,128 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #113744;
+}
+
+.header {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#counter {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.subwayImg {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #fff; /* White background */
+  color: #113744; /* Text color matching the theme */
+  font-family: Montserrat, sans-serif; /* Font family */
+  font-size: 30px; /* Font size */
+  font-weight: 700; /* Bold text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #f47457;
+  color: #fff; /* White text on hover */
+}
+
+.credits {
+  color: #fff;
+  text-shadow: 3px 4px 4px rgba(17, 55, 68, 0.5);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.saveBtn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: fit-content;
+  margin: 20px auto 0;
+  gap: 20px;
+}
+
+#saveBtn {
+  background-color: #f47457; /* Red background */
+  color: #fff; /* White text */
+  font-family: Montserrat, sans-serif; /* Font family */
+  font-size: 20px; /* Font size */
+  font-weight: 700; /* Bold text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease;
+  /* Match the width of the counter container including all buttons and gaps */
+  width: 100%;
+}
+
+#resetBtn {
+  background-color: #f47457; /* Red background */
+  color: #fff; /* White text */
+  font-family: Montserrat, sans-serif; /* Font family */
+  font-size: 20px; /* Font size */
+  font-weight: 700; /* Bold text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#save-el {
+  background-color: #b75741; /* Red background */
+  color: #fff; /* White text */
+  font-family: Montserrat, sans-serif; /* Font family */
+  font-size: 20px; /* Font size */
+  font-weight: 700; /* Bold text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  text-align: center;
+}
